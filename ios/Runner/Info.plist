@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>My App</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>my_locationapp_2</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+<!-- permission settings -->
+	<!-- <key>NSCalendarsUsageDescription</key>
+	<string>NSCalendarsUsageDescription</string>
+    <key>NSRemindersUsageDescription</key>
+	<string>NSRemindersUsageDescription</string>
+	<key>NSContactsUsageDescription</key>
+	<string>NSContactsUsageDescription</string>
+	<key>NSCameraUsageDescription</key>
+	<string>NSCameraUsageDescription</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>NSMicrophoneUsageDescription</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>NSSpeechRecognitionUsageDescription</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>NSPhotoLibraryUsageDescription</string>
+	<key>NSLocationUsageDescription</key>
+	<string>NSLocationUsageDescription</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>NSLocationAlwaysAndWhenInUseUsageDescription</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>NSLocationWhenInUseUsageDescription</string>
+    <key>PermissionGroupNotification</key>
+	<string>PermissionGroupNotification</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>NSAppleMusicUsageDescription</string>
+	<key>kTCCServiceMediaLibrary</key>
+	<string>kTCCServiceMediaLibrary</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>NSBluetoothAlwaysUsageDescription</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>NSBluetoothPeripheralUsageDescription</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>NSUserTrackingUsageDescription</string>
+	<key>PermissionGroupCriticalAlerts</key>
+	<string>PermissionGroupCriticalAlerts</string> -->
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>需要使用您的定位，地图附近显示停车、车辆信息</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>需要使用您的定位，地图附近显示停车、车辆信息</string>
+	<key>NSLocationUsageDescription</key>
+	<string>需要使用您的定位，地图附近显示停车、车辆信息</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>需要使用您的定位，地图附近显示停车、车辆信息</string>
+
+	<key>LSApplicationQueriesSchemes</key>
+
+<array>
+    <string>comgooglemaps</string>
+    <string>baidumap</string>
+    <string>iosamap</string>
+    <string>waze</string>
+    <string>yandexmaps</string>
+    <string>yandexnavi</string>
+    <string>citymapper</string>
+    <string>mapswithme</string>
+    <string>osmandmaps</string>
+    <string>dgis</string>
+    <string>qqmap</string>
+    <string>here-location</string>
+</array>
+<key>LSApplicationQueriesSchemes</key>
+<array>
+        <string>itms-beta</string>
+        <string>itms</string>
+	    <string>sms</string>
+        <string>tel</string>
+</array>
+</plist>
